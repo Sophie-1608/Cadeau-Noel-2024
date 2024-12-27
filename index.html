@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Noël Nix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="gif-background" src="https://media.giphy.com/media/dXtpREchVgDiEWp1TA/giphy.gif" alt="GIF Joyeux Noël">
+    <h1>JOYEUX NOEL NIX</h1>
+    <br>
+    <p>De la part d'Étoile</p>
+
+    <div class="content">
+        <div id="video-container">
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <select id="music-selector" onchange="playSelectedVideo()">
+            <option value="https://www.youtube.com/embed/sSeviT0uwLE">Chopin Rondo Op.1</option>
+            <option value="https://www.youtube.com/embed/Gj-xTzKYq8g">Arthur Rubinstein - Chopin Mazurka, Op. 33 No. 4</option>
+            <option value="https://www.youtube.com/embed/baZGdj0xLYg">Arthur Rubinstein - Chopin Impromptu No. 1 in A flat, Op. 29</option>
+            <option value="https://www.youtube.com/embed/3G4NKzmfC-Q">Smetana ~ Moldau</option>
+            <option value="https://www.youtube.com/embed/IC2cnGd5Sy8">En Avril À Paris, Marc-André Hamelin</option>
+            <option value="https://www.youtube.com/embed/yQw3DvqEbxI">Sergei Rachmaninov - Moment Musicaux Op. 16 No. 4</option>
+            <option value="https://www.youtube.com/embed/wkci_fyEot8">Rachmaninoff: Piano Concerto No.3, Movement III, Finale, Alla Breve</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
